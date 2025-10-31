@@ -1,0 +1,22 @@
+# .gitignore
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.env
+*.env
+*.sqlite3
+.DS_Store
+
+# VS Code / JetBrains
+.vscode/
+.idea/
+
+# Virtual Envs
+venv/
+crewai-env/
+.envrc
+
+# Chroma persistence
+/vectorstore/

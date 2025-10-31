@@ -1,0 +1,37 @@
+          ┌──────────────────────┐
+          │   User Query Input   │
+          └──────────────────────┘
+                     │
+                     ▼
+        ┌────────────────────────────┐
+        │ 1. Retriever Agent         │
+        │ - Uses Chroma + embeddings │
+        │ - Pulls relevant docs      │
+        └────────────────────────────┘
+                     │
+                     ▼
+        ┌────────────────────────────┐
+        │ 2. Legal Assistant Agent   │
+        │ - Analyzes retrieved docs  │
+        │ - Answers the query        │
+        └────────────────────────────┘
+                     │
+                     ▼
+        ┌────────────────────────────┐
+        │ 3. Evaluation Agent        │
+        │ - Checks answer quality    │
+        │ - Uses external search if  │
+        │   needed (Tavily/Tool)     │
+        └────────────────────────────┘
+                     │
+                     ▼
+        ┌────────────────────────────┐
+        │ 4. Editor Agent            │
+        │ - Polishes final response  │
+        │ - Ensures clarity, style   │
+        └────────────────────────────┘
+                     │
+                     ▼
+          ┌──────────────────────┐
+          │   Final Answer Out   │
+          └──────────────────────┘
