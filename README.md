@@ -44,7 +44,7 @@ If it can’t find the answer in your docs? It Googles it for you (kinda — via
 
 ⸻
 
-👩‍💻 Built With Love by Sanjana
+👩‍💻 Built With Love by Dhruv Sanandiya
 
 Feel free to fork, play, or send a pull request 🛠️
 MIT Licensed.
